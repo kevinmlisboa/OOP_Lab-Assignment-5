@@ -74,3 +74,6 @@ E372		Cruz, Ricardo			37,000.00 <br>
 4. Use the department.setDepTotalSalary() in putting the aggregated value into the object.  Do not just use the salary accumulation approach in the printing process to get the depTotalSalary. <br>
 5. Submit the Github solution link provided in NEUVLE. <br>
 
+## MY OUTPUT
+![image](https://github.com/kevinmlisboa/OOP_Lab-Assignment-5/assets/133233113/4ec53d89-3b03-4139-9bfd-8ed4ae5b083e)
+
