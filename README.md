@@ -8,34 +8,34 @@ You are required to present a department report that accesses csv files. You mus
 
 dep.csv contains the following
 
-deptCode, deptName, location
-IT, Information Tech, 2nd floor
-HR, Human Resource, 3rd floor
-FNC, Finance, 4th floor
+deptCode, deptName, location <br>
+IT, Information Tech, 2nd floor <br>
+HR, Human Resource, 3rd floor <br>
+FNC, Finance, 4th floor <br>
 
 The deptemp.csv is referenced to get the salary  of the employees per department:
 
-deptCode, empNo, salary
-IT, E123, 30000
-IT, E124, 45000
-IT, E125, 51000
-HR, E251, 66000
-HR, E252, 25000
-FNC, E370, 42000
-FNC, E371, 29000
-FNC, E372, 37000
+deptCode, empNo, salary <br>
+IT, E123, 30000 <br>
+IT, E124, 45000 <br>
+IT, E125, 51000 <br>
+HR, E251, 66000 <br>
+HR, E252, 25000 <br>
+FNC, E370, 42000 <br>
+FNC, E371, 29000 <br> 
+FNC, E372, 37000 <br>
 
 To get the details of the employee you must access the emp.csv:
 
-empNo, lastName, firstName, job
-E123, Maxwell, John, Developer
-E124, Delos Reyes, Ernesto, Analyst
-E125, Ortiz, Manuel, Tester
-E251, Natividad, Lisa, HR Manager
-E252, Rosanto, Margareth, HR Specialist
-E370, Baldo, Jason, Team Leader
-E371, Hernandez, Timothy, Junior Accountant
-E372, Cruz, Ricardo, CPA
+empNo, lastName, firstName, job <br>
+E123, Maxwell, John, Developer <br>
+E124, Delos Reyes, Ernesto, Analyst <br>
+E125, Ortiz, Manuel, Tester <br>
+E251, Natividad, Lisa, HR Manager <br>
+E252, Rosanto, Margareth, HR Specialist <br>
+E370, Baldo, Jason, Team Leader <br>
+E371, Hernandez, Timothy, Junior Accountant <br>
+E372, Cruz, Ricardo, CPA <br>
 
 You need to create objects that will handle the retrieval of the csv files to convert it into objects.  These are EmployeeDA and EmployeeDA objects.  This will be the execution of the sequence:
 
