@@ -7,16 +7,16 @@ import java.text.DecimalFormat;
 
 public class DepartmentDA {
     private HashMap<String, Department> departmentMap;
-    private EmployeeDA employeeDA; // Add EmployeeDA field
+    private EmployeeDA employeeDA; 
 
     // Constructor
     public DepartmentDA() {
         this.departmentMap = readDept();
-        this.employeeDA = new EmployeeDA(); // Initialize EmployeeDA
+        this.employeeDA = new EmployeeDA(); 
         readDepEmp();
     }
 
-    // Method to read departments from file
+
     private HashMap<String, Department> readDept() {
         HashMap<String, Department> departments = new HashMap<>();
         try {
@@ -39,7 +39,7 @@ public class DepartmentDA {
         return departments;
     }
 
-    // Method to read department employees from file
+
     private void readDepEmp() {
         try {
             Scanner depEmpFile = new Scanner(new FileReader("C:\\JavaProject\\LabAssignment5_Lisboa\\src\\deptemp.csv"));
@@ -50,10 +50,10 @@ public class DepartmentDA {
                 Department department = departmentMap.get(depEmpArr[0].trim());
                 if (department != null) {
                     String empNo = depEmpArr[1].trim();
-                    Employee employee = employeeDA.getEmployee(empNo); // Retrieve employee details using EmployeeDA
+                    Employee employee = employeeDA.getEmployee(empNo); 
                     if (employee != null) {
-                        employee.setSalary(Double.parseDouble(depEmpArr[2])); // Set employee salary
-                        department.getEmployeeMap().put(empNo, employee); // Add employee to department
+                        employee.setSalary(Double.parseDouble(depEmpArr[2]));
+                        department.getEmployeeMap().put(empNo, employee); 
                         department.setDepTotalSalary(department.getDepTotalSalary() + employee.getSalary());
                     }
                 }
@@ -64,7 +64,7 @@ public class DepartmentDA {
         }
     }
 
-    // Method to print details of a department
+
     public void printDepartment(Department department) {
         DecimalFormat df = new DecimalFormat("#,###.00");
         System.out.println("Department Code: " + department.getDepCode());
@@ -82,7 +82,7 @@ public class DepartmentDA {
         System.out.println();
     }
 
-    // Getter for departmentMap
+
     public HashMap<String, Department> getDepartmentMap() {
         return departmentMap;
     }
