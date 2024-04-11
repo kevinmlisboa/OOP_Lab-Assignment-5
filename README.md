@@ -2,10 +2,8 @@
 
 You are required to present a department report that accesses csv files. You must put the data on the domain composition of the objects.
 
-<div>![Screenshot 2024-04-11 213724](https://github.com/kevinmlisboa/OOP_Lab-Assignment-5/assets/133233113/2a7f2fe3-7fed-427f-820e-e76bf83065ff)
-</div>
+![Screenshot 2024-04-11 213724](https://github.com/kevinmlisboa/OOP_Lab-Assignment-5/assets/133233113/2a7f2fe3-7fed-427f-820e-e76bf83065ff)
 
-![Screenshot 2024-04-11 213731](https://github.com/kevinmlisboa/OOP_Lab-Assignment-5/assets/133233113/7f9c2883-6a16-4d73-b44f-fcf4de3a5576)
 
 dep.csv contains the following
 
@@ -40,7 +38,7 @@ E372, Cruz, Ricardo, CPA <br>
 
 You need to create objects that will handle the retrieval of the csv files to convert it into objects.  These are EmployeeDA and EmployeeDA objects.  This will be the execution of the sequence:
 
-
+![Screenshot 2024-04-11 213731](https://github.com/kevinmlisboa/OOP_Lab-Assignment-5/assets/133233113/7f9c2883-6a16-4d73-b44f-fcf4de3a5576)
 
 This will be the sample generated report: <br>
 Department code: IT <br> 
