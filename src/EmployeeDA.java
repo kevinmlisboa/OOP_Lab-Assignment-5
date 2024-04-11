@@ -6,17 +6,17 @@ import java.util.Scanner;
 public class EmployeeDA {
     private HashMap<String, Employee> employeeMap;
 
-    // Constructor
+
     public EmployeeDA() {
         employeeMap = new HashMap<>();
         readEmployee();
     }
 
-    // Method to read employees from file
+
     private void readEmployee() {
         try {
             Scanner employeeFile = new Scanner(new FileReader("C:\\JavaProject\\LabAssignment5_Lisboa\\src\\emp.csv"));
-            employeeFile.nextLine(); // Skip header line
+            employeeFile.nextLine(); 
             while (employeeFile.hasNextLine()) {
                 String empLine = employeeFile.nextLine();
                 String[] empArr = empLine.split(",");
@@ -33,7 +33,7 @@ public class EmployeeDA {
         }
     }
 
-    // Method to get an employee by employee number
+
     public Employee getEmployee(String empNo) {
         return employeeMap.get(empNo);
     }
