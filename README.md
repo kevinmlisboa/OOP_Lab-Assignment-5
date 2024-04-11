@@ -1,7 +1,5 @@
 # OOP_Lab-Assignment-5
 
-## Instructions
-
 You are required to present a department report that accesses csv files. You must put the data on the domain composition of the objects.
 
 
@@ -41,32 +39,32 @@ You need to create objects that will handle the retrieval of the csv files to co
 
 
 
-This will be the sample generated report:
-Department code: IT
-Department name: Information Tech
-Department total salary: 126,000.00
----------------------Details -------------------------
-EmpNo		 Employee Name	Salary
-E123		Maxwell, John			30,000.00
-E125		Ortiz, Manuel			51,000.00
-E124		Delos Reyes, Ernesto		45,000.00
+This will be the sample generated report: <br>
+Department code: IT <br> 
+Department name: Information Tech <br> 
+Department total salary: 126,000.00 <br> 
+---------------------Details ------------------------- <br>
+EmpNo		 Employee Name	Salary <br> 
+E123		Maxwell, John			30,000.00 <br>
+E125		Ortiz, Manuel			51,000.00 <br>
+E124		Delos Reyes, Ernesto		45,000.00 <br> 
 
-Department code: HR
-Department name: Human Resource
-Department total salary: 91,000.00
----------------------Details -------------------------
-EmpNo		 Employee Name	Salary
-E252		Rosanto, Margareth		25,000.00
-E251		Natividad, Lisa		66,000.00
+Department code: HR <br>
+Department name: Human Resource <br> 
+Department total salary: 91,000.00 <br> 
+---------------------Details ------------------------- <br>
+EmpNo		 Employee Name	Salary <br> 
+E252		Rosanto, Margareth		25,000.00 <br>
+E251		Natividad, Lisa		66,000.00 <br>
 
-Department code: FNC
-Department name: Finance
-Department total salary: 108,000.00
----------------------Details -------------------------
-EmpNo		 Employee Name	Salary
-E370		Baldo, Jason			42,000.00
-E371		Hernandez, Timothy		29,000.00
-E372		Cruz, Ricardo			37,000.00
+Department code: FNC <br>
+Department name: Finance <br>
+Department total salary: 108,000.00 <br>
+---------------------Details ------------------------- <br>
+EmpNo		 Employee Name	Salary <br>
+E370		Baldo, Jason			42,000.00 <br> 
+E371		Hernandez, Timothy		29,000.00 <br>
+E372		Cruz, Ricardo			37,000.00 <br>
 
 INSTRUCTIONS:
 You are not allowed to alter the composition of the domain objects.  Stick to the design. Disregard the data in the csv if it is not necessary to the object.
